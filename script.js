@@ -17,3 +17,7 @@ listsButton.addEventListener("click", function() {
     }
 
 });
+
+listsButton.addEventListener("mouseover",function(){
+    console.log("①マウスがプルダウンボタンの上に乗りました(mouseover イベント発火)");
+});

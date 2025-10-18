@@ -50,6 +50,8 @@ header {
  display: flex;
  justify-content: space-around;
 }
+
+
 .red{
  background-color: red;
 }
@@ -61,8 +63,6 @@ header {
  position: absolute;
  right: 370px;
  top: 70px;
- z-index: 10;
- border: 1px solid #eee;
 }
 
 
@@ -73,7 +73,7 @@ header {
 
 
 .pull-down-list{
- padding: 15px 35px 15px ;
+ padding: 15px 35px 15px 15px;
  border: 1px solid #eee;
 }
 
